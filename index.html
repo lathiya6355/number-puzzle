@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>number puzzle</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	 <h1 class="head">Puzzle Game</h1>
+
+    <div class="board">
+      <input type="button" class="cell" id="btn1" onclick="click1()" value="1"></input>
+      <input type="button" class="cell" id="btn2" onclick="click2()" value="2"></input>
+      <input type="button" class="cell" id="btn3" onclick="click3()" value="3"></input>
+      <input type="button" class="cell" id="btn4" onclick="click4()" value="4"></input>
+      <input type="button" class="cell" id="btn5" onclick="click5()" value="5"></input>
+      <input type="button" class="cell" id="btn6" onclick="click6()" value="6"></input>
+      <input type="button" class="cell" id="btn7" onclick="click7()" value="7"></input>
+      <input type="button" class="cell" id="btn8" onclick="click8()" value=""></input>
+      <input type="button" class="cell" id="btn9" onclick="click9()" value="8"></input>
+    </div>
+
+    <h1 id="Win"></h1>
+
+    <button type="button" onClick="window.location.reload()" class="reset"> <h4>New Game</h4> </button>
+
+    <div class="fire">
+      <canvas id="canvas"></canvas>
+    </div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
